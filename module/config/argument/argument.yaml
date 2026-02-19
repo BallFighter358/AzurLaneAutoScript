@@ -317,8 +317,8 @@ MaritimeEscort:
   Enable: true
 Coalition:
   Mode:
-    value: area1-normal
-    option: [ area1-normal, area1-hard, area2-normal, area2-hard, area3-normal, area3-hard, area4-normal, area4-hard, area5-normal, area5-hard, area6-normal, area6-hard ]
+    value: hard
+    option: [ easy, normal, hard, sp ]
   Fleet:
     value: single
     option: [ single, multi ]
@@ -553,7 +553,7 @@ CoreShop:
 ShipyardDr:
   ResearchSeries:
     value: 2
-    option: [ 2, 3, 4 ]
+    option: [ 2, 3, 4, 5 ]
   ShipIndex:
     value: 0
     option: [ 0, 1, 2, 3, 4, 5, 6 ]
@@ -562,7 +562,7 @@ ShipyardDr:
 Shipyard:
   ResearchSeries:
     value: 1
-    option: [ 1, 2, 3, 4, 5 ]
+    option: [ 1, 2, 3, 4, 5, 6 ]
   ShipIndex:
     value: 0
     option: [ 0, 1, 2, 3, 4, 5, 6 ]
